@@ -6,7 +6,8 @@ public class App1 {
 	
 	
 	
-	public int m(String u, String p) {		
+	public int m(String u, String p) {	
+			
 		ResourceBundle rb= ResourceBundle.getBundle("config");
 		String myUser= rb.getString("user"); //nikhil1
 		String myPassword= rb.getString("password");// password1

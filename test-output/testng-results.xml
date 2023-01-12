@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-09T21:22:19 IST" name="Default suite" finished-at="2023-01-09T21:22:19 IST" duration-ms="120">
+  <suite started-at="2023-01-10T21:00:52 IST" name="Suite" finished-at="2023-01-10T21:00:52 IST" duration-ms="46">
     <groups>
     </groups>
-    <test started-at="2023-01-09T21:22:19 IST" name="Default test" finished-at="2023-01-09T21:22:19 IST" duration-ms="120">
-      <class name="com.test.myAppTest.App1Test">
-        <test-method signature="negativeLoginCredential()[pri:0, instance:com.test.myAppTest.App1Test@6d4e5011]" started-at="2023-01-09T21:22:19 IST" name="negativeLoginCredential" finished-at="2023-01-09T21:22:19 IST" duration-ms="36" status="PASS">
+    <test started-at="2023-01-10T21:00:52 IST" name="Test" finished-at="2023-01-10T21:00:52 IST" duration-ms="46">
+      <class name="com.test.myAppTest.App3Test">
+        <test-method signature="m3()[pri:0, instance:com.test.myAppTest.App3Test@419c5f1a]" started-at="2023-01-10T21:00:52 IST" name="m3" finished-at="2023-01-10T21:00:52 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- negativeLoginCredential -->
-        <test-method signature="positiveLoginCredential()[pri:0, instance:com.test.myAppTest.App1Test@6d4e5011]" started-at="2023-01-09T21:22:19 IST" name="positiveLoginCredential" finished-at="2023-01-09T21:22:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- positiveLoginCredential -->
-      </class> <!-- com.test.myAppTest.App1Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- m3 -->
+      </class> <!-- com.test.myAppTest.App3Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
