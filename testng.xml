@@ -4,8 +4,8 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<!-- <class name="com.test.myAppTest.App1Test" /> -->
-		 <class name="com.test.myAppTest.App2Test"/> 
-			<class name="com.test.myAppTest.App3Test"/> 
+			<!-- <class name="com.test.myAppTest.App2Test" /> -->
+			<class name="com.test.myAppTest.App3Test" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

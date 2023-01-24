@@ -3,7 +3,7 @@ package com.test.myAppTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.main.myApp.App1;
+import pages.App1;
 
 public class App1Test {
 

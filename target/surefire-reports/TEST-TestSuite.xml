@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.093" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.009" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\nkumar\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\nkumar\AppData\Local\Temp\surefire15942650313308100925\surefirebooter-20230112192902264_3.jar C:\Users\nkumar\AppData\Local\Temp\surefire15942650313308100925 2023-01-12T19-29-01_661-jvmRun1 surefire-20230112192902264_1tmp surefire_0-20230112192902264_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nkumar\AppData\Local\Temp\surefire9142130097172839967\surefirebooter-20230112211508905_3.jar C:\Users\nkumar\AppData\Local\Temp\surefire9142130097172839967 2023-01-12T21-15-08_144-jvmRun1 surefire-20230112211508905_1tmp surefire_0-20230112211508905_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\nkumar\eclipse-workspace\selenium\target\test-classes;C:\Users\nkumar\eclipse-workspace\selenium\target\classes;C:\Users\nkumar\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\nkumar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nkumar\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\nkumar\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\nkumar\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nkumar\AppData\Local\Temp\surefire15942650313308100925\surefirebooter-20230112192902264_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nkumar\AppData\Local\Temp\surefire9142130097172839967\surefirebooter-20230112211508905_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -48,33 +48,19 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Users\nkumar\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/nkumar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/nkumar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;D:\software\appium\android-sdk\platform-tools;D:\software\appium\android-sdk\cmdline-tools\tools\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\nkumar\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\nkumar\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nkumar\AppData\Local\Microsoft\WindowsApps;C:\Users\nkumar\AppData\Roaming\npm;C:\Users\nkumar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\BrowserStackLocal\;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;;C:\Windows\system32;;."/>
+    <property name="java.library.path" value="C:\Users\nkumar\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/nkumar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/nkumar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;D:\software\appium\android-sdk\platform-tools;D:\software\appium\android-sdk\cmdline-tools\tools\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\nkumar\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\nkumar\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nkumar\AppData\Local\Microsoft\WindowsApps;C:\Users\nkumar\AppData\Roaming\npm;C:\Users\nkumar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\BrowserStackLocal\;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;;C:\Windows\system32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="16.0.2+7-67"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="negativeLoginCredential" classname="com.test.myAppTest.App1Test" time="0.029">
-    <system-out><![CDATA[nikhil1----password1
+  <testcase name="m3" classname="com.test.myAppTest.App3Test" time="0.012">
+    <system-out><![CDATA[7
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
-  </testcase>
-  <testcase name="positiveLoginCredential" classname="com.test.myAppTest.App1Test" time="0.001">
-    <system-out><![CDATA[nikhil1----password1
-]]></system-out>
-  </testcase>
-  <testcase name="correctSkuVerify" classname="com.test.myAppTest.App2Test" time="0.004">
-    <system-out><![CDATA[400100
-0
-400100
-]]></system-out>
-  </testcase>
-  <testcase name="m3" classname="com.test.myAppTest.App3Test" time="0.003">
-    <system-out><![CDATA[7
-]]></system-out>
   </testcase>
 </testsuite>
